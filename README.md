@@ -13,43 +13,100 @@
 
 **Portafolio técnico y documentación de competencias adquiridas en arquitectura, seguridad, automatización y desarrollo en la nube.**
 
+<br>
+
+<img src="https://skillicons.dev/icons?i=aws,azure,terraform,docker,kubernetes,linux,bash,python,githubactions,elasticsearch,kibana&perline=11" alt="Tecnologías principales"/>
+
 </div>
 
 ---
 
 ## 🎯 Objetivo
 
-Desarrollar habilidades técnicas sólidas y competencias integrales para diseñar, implementar, administrar, asegurar y automatizar infraestructuras y aplicaciones escalables en entornos multi-cloud[cite: 4, 15].
+Consolidar capacidades técnicas integrales para **diseñar, implementar, asegurar, monitorear y automatizar** infraestructuras resilientes y aplicaciones escalables bajo estándares de producción en entornos Cloud.
 
 ---
 
 ## 🚀 Competencias Adquiridas
 
-| Área de Dominio | Competencias Desarrolladas con Servicios Cloud |
+| Área de Dominio | Competencias Desarrolladas |
 | :--- | :--- |
-| **☁️ Arquitectura Cloud & Redes** | • Diseño de infraestructuras altamente disponibles en <img src="https://icon.icepanel.io/AWS/svg/Architecture-Service/Arch_Amazon-Simple-Storage-Service_32.svg" width="18" align="center"> **AWS** y fundamentos en <img src="https://icon.icepanel.io/AWS/svg/Architecture-Service/Arch_AWS-Cloud-Enterprise-Adoption_32.svg" width="18" align="center"> **Microsoft Azure**[cite: 1, 15].<br>• Configuração de redes virtuales con <img src="https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Amazon-VPC.svg" width="18" align="center"> **VPC**, balanceo de carga con <img src="https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Elastic-Load-Balancing.svg" width="18" align="center"> **ELB**, CDN con <img src="https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Amazon-CloudFront.svg" width="18" align="center"> **CloudFront**, DNS con <img src="https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Amazon-Route-53.svg" width="18" align="center"> **Route 53** y conexiones híbridas (**VPN / Direct Connect**)[cite: 7, 8, 9]. |
-| **⚡ Serverless & Microservicios** | • Desarrollo de aplicaciones nativas de la nube orientadas a eventos[cite: 12, 15].<br>• Desacoplamiento de cargas de trabajo mediante funciones sin servidor con <img src="https://icon.icepanel.io/AWS/svg/Compute/AWS-Lambda.svg" width="18" align="center"> **AWS Lambda**, <img src="https://icon.icepanel.io/AWS/svg/App-Integration/Amazon-API-Gateway.svg" width="18" align="center"> **API Gateway**, colas de mensajes con <img src="https://icon.icepanel.io/AWS/svg/App-Integration/Amazon-Simple-Queue-Service-SQS.svg" width="18" align="center"> **SQS** y notificaciones con <img src="https://icon.icepanel.io/AWS/svg/App-Integration/Amazon-Simple-Notification-Service-SNS.svg" width="18" align="center"> **SNS**[cite: 11, 12, 15]. |
-| **🤖 Automatización & IaC** | • Aprovisionamiento y gestión declarativa de infraestructura como código utilizando <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" width="16" align="center"> **Terraform**, <img src="https://icon.icepanel.io/AWS/svg/Management-Governance/AWS-CloudFormation.svg" width="18" align="center"> **AWS CloudFormation** y **AWS CDK**[cite: 9, 15].<br>• Automatización de servidores Linux mediante **Bash** y **SSH**[cite: 5, 15]. |
-| **🐳 Contenedores & Orquestación** | • Empaquetado de aplicaciones con <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" width="16" align="center"> **Docker**[cite: 12].<br>• Despliegue y orquestación de clústeres escalables y serverless usando <img src="https://icon.icepanel.io/AWS/svg/Containers/Amazon-ECS.svg" width="18" align="center"> **Amazon ECS**, <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" width="16" align="center"> **Kubernetes (EKS)** y <img src="https://icon.icepanel.io/AWS/svg/Containers/AWS-Fargate.svg" width="18" align="center"> **AWS Fargate**[cite: 12]. |
-| **🔄 CI/CD & DevOps** | • Implementación de flujos de integración y entrega continua automatizada con pruebas y despliegues en producción mediante <img src="https://icon.icepanel.io/AWS/svg/Developer-Tools/AWS-CodePipeline.svg" width="18" align="center"> **AWS CodePipeline**, <img src="https://icon.icepanel.io/AWS/svg/Developer-Tools/AWS-CodeBuild.svg" width="18" align="center"> **CodeBuild**, <img src="https://icon.icepanel.io/AWS/svg/Developer-Tools/AWS-CodeDeploy.svg" width="18" align="center"> **CodeDeploy** y **GitHub Actions**[cite: 13]. |
-| **🗄️ Bases de Datos & Big Data** | • Administración de motores relacionales SQL con <img src="https://icon.icepanel.io/AWS/svg/Database/Amazon-RDS.svg" width="18" align="center"> **Amazon RDS** y NoSQL con <img src="https://icon.icepanel.io/AWS/svg/Database/Amazon-DynamoDB.svg" width="18" align="center"> **DynamoDB** y **DocumentDB**[cite: 8, 12, 15].<br>• Procesamiento analítico y Big Data con <img src="https://icon.icepanel.io/AWS/svg/Analytics/Amazon-Redshift.svg" width="18" align="center"> **Amazon Redshift**, **EMR** y **QuickSight**[cite: 12, 15]. |
-| **🛡️ Seguridad & Gobernanza** | • Gestión granular de identidades y accesos con <img src="https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/AWS-Identity-and-Access-Management-IAM.svg" width="18" align="center"> **IAM**[cite: 9, 15].<br>• Cifrado de datos y secretos con <img src="https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/AWS-Key-Management-Service.svg" width="18" align="center"> **KMS** y <img src="https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/AWS-Secrets-Manager.svg" width="18" align="center"> **Secrets Manager**[cite: 9, 15].<br>• Defensa perimetral con **AWS WAF, Shield, Inspector y GuardDuty**[cite: 9]. |
-| **📊 Observabilidad & Monitoreo** | • Instrumentación de métricas, alertas y análisis centralizado de registros con <img src="https://icon.icepanel.io/AWS/svg/Management-Governance/Amazon-CloudWatch.svg" width="18" align="center"> **Amazon CloudWatch**, **ELK Stack**, **New Relic** y **Datadog**[cite: 9, 13]. |
+| **☁️ Arquitectura Cloud & Redes**<br><br><img src="https://skillicons.dev/icons?i=aws,azure" alt="AWS y Azure"/> | Diseño de infraestructuras altamente disponibles en **AWS** y fundamentos en **Microsoft Azure**. Configuración de redes virtuales (**VPC**), balanceo de carga (**ELB**), CDN (**CloudFront**), DNS (**Route 53**) y conexiones híbridas (**VPN / Direct Connect**). |
+| **⚡ Serverless & Microservicios**<br><br><img src="https://skillicons.dev/icons?i=aws" alt="AWS Lambda"/> | Desarrollo de aplicaciones nativas de la nube orientadas a eventos. Desacoplamiento de cargas de trabajo mediante **AWS Lambda**, **API Gateway**, colas de mensajes (**SQS**) y notificaciones (**SNS**). |
+| **🤖 Automatización & IaC**<br><br><img src="https://skillicons.dev/icons?i=terraform,aws,linux,bash" alt="Terraform, AWS, Linux, Bash"/> | Aprovisionamiento y gestión declarativa de infraestructura como código utilizando **Terraform**, **AWS CloudFormation** y **AWS CDK**, junto con automatización de servidores Linux mediante **Bash** y **SSH**. |
+| **🐳 Contenedores & Orquestación**<br><br><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws" alt="Docker, Kubernetes, AWS"/> | Empaquetado de aplicaciones con **Docker** y despliegue/orquestación de clústeres escalables y *serverless* usando **Amazon ECS**, **Kubernetes (EKS)** y **AWS Fargate**. |
+| **🔄 CI/CD & DevOps**<br><br><img src="https://skillicons.dev/icons?i=githubactions,aws,git" alt="GitHub Actions, AWS, Git"/> | Implementación de flujos de integración y entrega continua automatizada con pruebas y despliegues en producción mediante **AWS CodePipeline**, **CodeBuild**, **CodeDeploy** y **GitHub Actions**. |
+| **🗄️ Bases de Datos & Big Data**<br><br><img src="https://skillicons.dev/icons?i=postgres,mysql,dynamodb,aws" alt="Bases de datos"/> | Administración de motores relacionales SQL (**Amazon RDS**) y NoSQL (**DynamoDB**, **DocumentDB**). Procesamiento y visualización analítica con **Amazon Redshift**, **EMR** y **QuickSight**. |
+| **🛡️ Seguridad & Gobernanza**<br><br><img src="https://skillicons.dev/icons?i=aws,linux" alt="Seguridad"/> | Gestión granular de identidades y accesos (**IAM**), cifrado de datos y secretos (**KMS**, **Secrets Manager**), y defensa perimetral con **AWS WAF, Shield, Inspector y GuardDuty**. |
+| **📊 Observabilidad & Monitoreo**<br><br><img src="https://skillicons.dev/icons?i=elasticsearch,kibana,grafana,prometheus" alt="Monitoreo"/> | Instrumentación de métricas, alertas y análisis centralizado de logs con **Amazon CloudWatch**, **ELK Stack** (*Elasticsearch, Logstash, Kibana*), **New Relic** y **Datadog**. |
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
 <details>
-<summary><b>Haz clic para desplegar el inventario detallado de herramientas y servicios</b></summary>
+<summary><b>Haz clic para desplegar el inventario de herramientas y servicios</b></summary>
 <br>
 
-* **Proveedores Cloud:** `Amazon Web Services (AWS)` `Microsoft Azure`[cite: 1]
-* **Cómputo y Contenedores:** `EC2` `Auto Scaling` `Elastic Beanstalk` `Lambda` `Docker` `Kubernetes` `ECS` `EKS` `Fargate`[cite: 7, 9, 12]
-* **Redes y Almacenamiento:** `VPC` `Route 53` `ELB` `CloudFront` `VPN` `Direct Connect` `S3` `EBS` `EFS`[cite: 6, 7, 8, 9]
-* **IaC, Scripting y CI/CD:** `Terraform` `CloudFormation` `AWS CDK` `Linux` `Bash` `SSH` `Python` `CodePipeline` `CodeBuild` `CodeDeploy` `GitHub Actions`[cite: 5, 9, 13]
-* **Bases de Datos y Analítica:** `Amazon RDS` `DynamoDB` `DocumentDB` `Redshift` `Elastic MapReduce (EMR)` `QuickSight`[cite: 8, 12]
-* **Seguridad y Monitoreo:** `IAM` `KMS` `Secrets Manager` `WAF` `Shield` `Inspector` `GuardDuty` `CloudWatch` `ELK Stack` `New Relic` `Datadog`[cite: 9, 13]
+### ☁️ Proveedores Cloud
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+### 🖥️ Cómputo y Contenedores
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Auto Scaling](https://img.shields.io/badge/Auto_Scaling-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Elastic Beanstalk](https://img.shields.io/badge/Elastic_Beanstalk-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![ECS](https://img.shields.io/badge/ECS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![EKS](https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Fargate](https://img.shields.io/badge/Fargate-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+
+### 🌐 Redes y Almacenamiento
+![VPC](https://img.shields.io/badge/VPC-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Route 53](https://img.shields.io/badge/Route_53-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![ELB](https://img.shields.io/badge/ELB-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![VPN](https://img.shields.io/badge/VPN-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Direct Connect](https://img.shields.io/badge/Direct_Connect-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![EBS](https://img.shields.io/badge/EBS-569A31?style=flat-square&logo=amazonaws&logoColor=white)
+![EFS](https://img.shields.io/badge/EFS-569A31?style=flat-square&logo=amazonaws&logoColor=white)
+
+### 🤖 IaC, Scripting y CI/CD
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-E7157B?style=flat-square&logo=amazonaws&logoColor=white)
+![AWS CDK](https://img.shields.io/badge/AWS_CDK-E7157B?style=flat-square&logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![SSH](https://img.shields.io/badge/SSH-231F20?style=flat-square&logo=openssh&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![CodePipeline](https://img.shields.io/badge/CodePipeline-527FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![CodeBuild](https://img.shields.io/badge/CodeBuild-527FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![CodeDeploy](https://img.shields.io/badge/CodeDeploy-527FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+### 🗄️ Bases de Datos y Analítica
+![Amazon RDS](https://img.shields.io/badge/Amazon_RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+![DocumentDB](https://img.shields.io/badge/DocumentDB-4053D6?style=flat-square&logo=amazonaws&logoColor=white)
+![Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white)
+![EMR](https://img.shields.io/badge/EMR-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![QuickSight](https://img.shields.io/badge/QuickSight-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white)
+
+### 🛡️ Seguridad y Monitoreo
+![IAM](https://img.shields.io/badge/IAM-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![KMS](https://img.shields.io/badge/KMS-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![Secrets Manager](https://img.shields.io/badge/Secrets_Manager-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![WAF](https://img.shields.io/badge/WAF-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![Shield](https://img.shields.io/badge/Shield-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![Inspector](https://img.shields.io/badge/Inspector-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![GuardDuty](https://img.shields.io/badge/GuardDuty-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-E7157B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
+![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
+![New Relic](https://img.shields.io/badge/New_Relic-008C99?style=flat-square&logo=newrelic&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
 
 </details>
 
