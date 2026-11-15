@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portafolio de aprendizaje en Cloud Computing y Amazon Web Services AWS.">
+<title>Cloud Computing | AWS</title>
+
+<style>
+:root {
+    --bg: #0b1120;
+    --panel: #111c30;
+    --blue: #38bdf8;
+    --orange: #ff9900;
+    --text: #e5edf8;
+    --muted: #94a3b8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+
+header {
+    background: rgba(11,17,32,.95);
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #24334a;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: var(--blue);
+}
+
+.hero {
+    min-height: 530px;
+    padding: 100px 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:
+      radial-gradient(circle at 80% 30%, #123b62 0%, transparent 35%),
+      linear-gradient(120deg, #0b1120, #101e35);
+}
+
+.tag {
+    color: var(--orange);
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 6vw, 65px);
+    line-height: 1.15;
+    margin: 20px 0;
+    max-width: 800px;
+}
+
+.hero h1 span {
+    color: var(--blue);
+}
+
+.hero p {
+    color: var(--muted);
+    max-width: 650px;
+    font-size: 17px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 13px 25px;
+    background: var(--orange);
+    color: #111827;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+section {
+    padding: 75px 8%;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.section-title span {
+    color: var(--blue);
+}
+
+.description {
+    color: var(--muted);
+    max-width: 750px;
+    margin-bottom: 35px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--panel);
+    padding: 25px;
+    border: 1px solid #26364d;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--blue);
+}
+
+.card h3 {
+    color: var(--blue);
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: #172b45;
+    border: 1px solid #294866;
+    padding: 10px 17px;
+    border-radius: 6px;
+    color: #bae6fd;
+    font-size: 14px;
+}
+
+.highlight {
+    background: linear-gradient(120deg, #112b48, #17223a);
+    border-left: 4px solid var(--orange);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.highlight p {
+    color: var(--muted);
+}
+
+footer {
+    text-align: center;
+    padding: 35px 8%;
+    border-top: 1px solid #24334a;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+footer strong {
+    color: var(--orange);
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        padding: 75px 7%;
+    }
+
+    section {
+        padding: 55px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">☁ CLOUD AWS</div>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca">Acerca de</a>
+        <a href="#aws">AWS</a>
+        <a href="#conocimientos">Conocimientos</a>
+        <a href="#objetivos">Objetivos</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+    <span class="tag">CLOUD COMPUTING · AMAZON WEB SERVICES</span>
+
+    <h1>
+        Explorando el futuro de la
+        <span>computación en la nube.</span>
+    </h1>
+
+    <p>
+        Un espacio dedicado al aprendizaje, exploración y
+        fortalecimiento de conocimientos en infraestructura
+        tecnológica, servicios cloud y Amazon Web Services.
+    </p>
+
+    <a href="#acerca" class="button">Conocer más →</a>
+</section>
+
+<section id="acerca">
+    <h2 class="section-title">Acerca de <span>este espacio</span></h2>
+
+    <p class="description">
+        Este repositorio está orientado al aprendizaje de Cloud
+        Computing y los servicios de Amazon Web Services (AWS).
+        Su propósito es documentar conocimientos, comprender
+        arquitecturas tecnológicas y explorar herramientas
+        utilizadas en entornos de computación en la nube.
+    </p>
+
+    <div class="highlight">
+        <h3>Mi enfoque profesional</h3>
+        <p>
+            Como estudiante de Ingeniería de Sistemas, busco
+            fortalecer mis competencias en infraestructura cloud,
+            administración de servicios, automatización,
+            escalabilidad y arquitectura de soluciones tecnológicas.
+        </p>
+    </div>
+</section>
+
+<section id="aws">
+    <h2 class="section-title">Amazon Web <span>Services</span></h2>
+
+    <p class="description">
+        AWS ofrece servicios de computación en la nube que permiten
+        construir, implementar y administrar soluciones tecnológicas.
+    </p>
+
+    <div class="grid">
+
+        <article class="card">
+            <div class="icon">🖥️</div>
+            <h3>Amazon EC2</h3>
+            <p>
+                Servicio de servidores virtuales para ejecutar
+                aplicaciones y cargas de trabajo en la nube.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="icon">🪣</div>
+            <h3>Amazon S3</h3>
+            <p>
+                Servicio de almacenamiento de objetos para
+                guardar y administrar información.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="icon">🗄️</div>
+            <h3>Amazon RDS</h3>
+            <p>
+                Servicio administrado para trabajar con bases
+                de datos relacionales.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="icon">🌐</div>
+            <h3>Amazon VPC</h3>
+            <p>
+                Permite crear redes virtuales aisladas y
+                configurar recursos de infraestructura.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="icon">⚡</div>
+            <h3>AWS Lambda</h3>
+            <p>
+                Permite ejecutar código sin administrar
+                directamente servidores.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="icon">🔗</div>
+            <h3>API Gateway</h3>
+            <p>
+                Servicio para crear, publicar y administrar
+                interfaces de programación de aplicaciones.
+            </p>
+        </article>
+
+    </div>
+</section>
+
+<section id="conocimientos">
+    <h2 class="section-title">Conocimientos y <span>tecnologías</span></h2>
+
+    <p class="description">
+        Áreas de conocimiento relacionadas con la infraestructura
+        tecnológica y el desarrollo de soluciones cloud.
+    </p>
+
+    <div class="skills">
+        <span class="skill">AWS</span>
+        <span class="skill">Cloud Computing</span>
+        <span class="skill">EC2</span>
+        <span class="skill">S3</span>
+        <span class="skill">RDS</span>
+        <span class="skill">VPC</span>
+        <span class="skill">IAM</span>
+        <span class="skill">Lambda</span>
+        <span class="skill">API Gateway</span>
+        <span class="skill">Python</span>
+        <span class="skill">Linux</span>
+        <span class="skill">Docker</span>
+        <span class="skill">GitHub Actions</span>
+        <span class="skill">CI/CD</span>
+        <span class="skill">Redes</span>
+        <span class="skill">Arquitectura Cloud</span>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Áreas de <span>interés</span></h2>
+
+    <div class="grid">
+        <article class="card">
+            <h3>Cloud Architecture</h3>
+            <p>Diseño y comprensión de arquitecturas en la nube.</p>
+        </article>
+
+        <article class="card">
+            <h3>DevOps</h3>
+            <p>Integración, automatización y entrega continua.</p>
+        </article>
+
+        <article class="card">
+            <h3>Cloud Security</h3>
+            <p>Identidad, permisos y buenas prácticas de seguridad.</p>
+        </article>
+
+        <article class="card">
+            <h3>Infrastructure as Code</h3>
+            <p>Administración y aprovisionamiento de infraestructura mediante código.</p>
+        </article>
+    </div>
+</section>
+
+<section id="objetivos">
+    <h2 class="section-title">Objetivos <span>profesionales</span></h2>
+
+    <p class="description">
+        Continuar desarrollando competencias en computación en
+        la nube, profundizar en los servicios de AWS y comprender
+        cómo diseñar soluciones tecnológicas eficientes,
+        seguras y escalables.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p><strong>Diego Alberto Escobar</strong></p>
+    <p>Ingeniería de Sistemas | Cloud Computing | AWS</p>
+    <p>Aprendizaje continuo e innovación tecnológica.</p>
+    <p>© 2026 - Cloud Computing & AWS</p>
+</footer>
+
+</body>
+</html>
